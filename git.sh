@@ -3,7 +3,7 @@
 set -x 
 
 if [ $# -lt 2 ];then
-        echo usage "input name and email!"
+        echo usage "input 1:name and 2:email!"
         exit 1
 fi
 

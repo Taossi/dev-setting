@@ -29,3 +29,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 # highlight
 cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+# .zshrc file
+cd ~
+now=$(pwd)
+ln -s .zshrc $now/.zshrc 
