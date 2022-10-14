@@ -8,7 +8,7 @@ echo $dir
 
 ###########################
 # oh my zsh install, using in iterm2
-# hint: need install pip first
+# hint: need install python/pip/gcc/make... first
 ###########################
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
 

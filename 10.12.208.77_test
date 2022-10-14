@@ -1,0 +1,12 @@
+#!/usr/bin/expect
+
+set HOST xxx
+set USER xxx
+set PASSWORD xxx
+
+spawn ssh $USER@$HOST
+expect {
+        "yes/no" {send "yes\r";exp_continue;}
+         "*password:*" { send "$PASSWORD\r" }
+        }
+interact
